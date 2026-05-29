@@ -1,10 +1,7 @@
 "use client";
 
 const SHORT_VIDEO_URLS = [
-  "https://youtube.com/shorts/POkxVu6Hyek",
-  "https://youtube.com/shorts/U4u3g0rHwcA",
-  "https://youtube.com/shorts/frFAboPR-Bo",
-  "https://youtube.com/shorts/zRNHe5bCPNo",
+  "https://youtube.com/shorts/XRAzf8zLnLI",
 ];
 
 const LONG_VIDEO_URL =
