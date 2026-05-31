@@ -46,7 +46,7 @@ export default function Page() {
           </h1>
 
           <p className="mt-2 text-sm text-slate-600">
-            ショート動画をスワイプして閲覧できます
+            
           </p>
         </div>
 
