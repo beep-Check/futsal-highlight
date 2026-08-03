@@ -1,7 +1,7 @@
 "use client";
 
 const SHORT_VIDEO_URLS = [
-  "https://youtube.com/shorts/XRAzf8zLnLI",
+  "",
   
 ];
 
