@@ -47,13 +47,13 @@ export default function Page() {
           </h1>
 
           <p className="mt-2 text-sm text-slate-600">
-            ショート動画をスワイプして閲覧できます
+            
           </p>
         </div>
 
         <section className="mb-6">
           <h2 className="mb-3 text-xl font-black text-emerald-700">
-            当日のハイライト
+            7.31のハイライト
           </h2>
 
           <div className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4">
