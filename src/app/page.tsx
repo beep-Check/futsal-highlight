@@ -6,7 +6,7 @@ const SHORT_VIDEO_URLS = [
 ];
 
 const LONG_VIDEO_URL =
-  "https://www.youtube.com/watch?v=1cMwKCGK4mk";
+  "https://youtu.be/FSyoC1nfs-U";
 
 function toEmbedUrl(url: string) {
   if (!url) return "";
