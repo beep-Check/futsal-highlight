@@ -1,11 +1,20 @@
 "use client";
 
 const SHORT_VIDEO_URLS = [
+<<<<<<< HEAD
   "https://youtube.com/shorts/XRAzf8zLnLI",
 ];
 
 const LONG_VIDEO_URL =
   "https://www.youtube.com/watch?v=1cMwKCGK4mk";
+=======
+  "https://youtu.be/fzqR4JtUIx8",
+  
+];
+
+const LONG_VIDEO_URL =
+  "https://youtu.be/FSyoC1nfs-U";
+>>>>>>> origin/main
 
 function toEmbedUrl(url: string) {
   if (!url) return "";
@@ -52,7 +61,11 @@ export default function Page() {
 
         <section className="mb-6">
           <h2 className="mb-3 text-xl font-black text-emerald-700">
+<<<<<<< HEAD
             Shorts
+=======
+            7.31のハイライト
+>>>>>>> origin/main
           </h2>
 
           <div className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4">
