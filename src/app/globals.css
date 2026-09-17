@@ -25,3 +25,326 @@
     0 20px 60px rgba(0,0,0,0.55),
     0 0 30px rgba(59,130,246,0.08);
 }
+
+/* ========================================
+   ハイライト動画
+======================================== */
+
+.highlight-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 36px;
+  background: linear-gradient(
+    135deg,
+    #effaf4 0%,
+    #e5f6ee 100%
+  );
+  border: 1px solid #cce8da;
+  border-radius: 24px;
+  box-sizing: border-box;
+}
+
+
+/* タイトル */
+
+.highlight-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.highlight-label {
+  margin: 0 0 8px;
+  color: #118575;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+.highlight-header h2 {
+  margin: 0 0 10px;
+  color: #124d39;
+  font-size: 38px;
+}
+
+.highlight-header p {
+  margin: 0;
+  color: #4b6f60;
+  font-size: 17px;
+}
+
+
+/* =====================
+   ロング動画
+===================== */
+
+.highlight-main {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 32px;
+  align-items: center;
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.highlight-info h3 {
+  margin: 12px 0;
+  color: #154f3c;
+  font-size: 30px;
+}
+
+.highlight-info p {
+  color: #4f665d;
+  line-height: 1.8;
+}
+
+.video-badge {
+  display: inline-block;
+  background: #138b76;
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+
+/* メインボタン */
+
+.highlight-button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 15px 25px;
+  background: linear-gradient(
+    135deg,
+    #1fc46b,
+    #119c55
+  );
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: bold;
+  box-shadow: 0 8px 18px rgba(17, 156, 85, 0.22);
+  transition: 0.2s;
+}
+
+.highlight-button:hover {
+  transform: translateY(-2px);
+}
+
+.highlight-note {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #70847c;
+}
+
+
+/* YouTube */
+
+.video-frame {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  background: #000;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+/* =====================
+   ショート動画
+===================== */
+
+.short-video-area {
+  margin-top: 24px;
+  padding: 26px;
+  background: #ffffff;
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 330px;
+  gap: 30px;
+  align-items: center;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.short-video-text h3 {
+  color: #154f3c;
+  margin: 12px 0;
+  font-size: 26px;
+}
+
+.short-video-text p {
+  color: #526960;
+  line-height: 1.7;
+}
+
+.short-badge {
+  background: #1ba864;
+}
+
+
+/* YouTube Shorts 用 */
+
+.short-video-frame {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  aspect-ratio: 9 / 16;
+
+  background: #000000;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.short-video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+/* =====================
+   過去動画
+===================== */
+
+.past-video-area {
+  margin-top: 24px;
+  padding: 24px 28px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  background: #127f74;
+  color: #ffffff;
+
+  border-radius: 18px;
+}
+
+.past-video-area h3 {
+  margin: 5px 0;
+  font-size: 24px;
+}
+
+.past-video-area p {
+  margin: 5px 0;
+}
+
+.past-label {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  opacity: 0.8;
+}
+
+
+/* 過去動画ボタン */
+
+.past-video-button {
+  display: inline-block;
+  flex-shrink: 0;
+
+  padding: 14px 22px;
+
+  background: #ffffff;
+  color: #127f74;
+
+  text-decoration: none;
+  font-weight: bold;
+
+  border-radius: 12px;
+
+  transition: 0.2s;
+}
+
+.past-video-button:hover {
+  transform: translateY(-2px);
+}
+
+
+/* =====================
+   スマホ
+===================== */
+
+@media (max-width: 850px) {
+
+  .highlight-section {
+    margin: 25px 15px;
+    padding: 22px;
+  }
+
+  .highlight-header h2 {
+    font-size: 30px;
+  }
+
+  .highlight-main {
+    grid-template-columns: 1fr;
+  }
+
+  .short-video-area {
+    grid-template-columns: 1fr;
+  }
+
+  .short-video-frame {
+    max-width: 280px;
+  }
+
+  .past-video-area {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .past-video-button {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .highlight-section {
+    margin: 20px 10px;
+    padding: 16px;
+    border-radius: 18px;
+  }
+
+  .highlight-header h2 {
+    font-size: 25px;
+  }
+
+  .highlight-main {
+    padding: 18px;
+  }
+
+  .highlight-info h3 {
+    font-size: 24px;
+  }
+
+  .highlight-button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+}
