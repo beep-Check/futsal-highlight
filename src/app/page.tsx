@@ -18,6 +18,11 @@ const VIDEO_ARCHIVES = [
     shortVideoUrls: ["https://youtu.be/fzqR4JtUIx8"],
     longVideoUrl: "https://youtu.be/FSyoC1nfs-U",
   },
+  {
+    date: "9月18日",
+    shortVideoUrls: [],
+    longVideoUrl: "https://youtu.be/mCOJdBCi9NE",
+  },
 ];
 
 function toEmbedUrl(url: string) {
